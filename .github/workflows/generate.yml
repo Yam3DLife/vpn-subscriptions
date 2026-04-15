@@ -1,0 +1,47 @@
+name: Generate User Subscriptions
+
+on:
+  # Запуск при каждом push в main (когда вы меняете users.json)
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'users.json'
+      - 'generate.py'
+  # Автоматический запуск каждый час (чтобы проверять сроки)
+  schedule:
+    - cron: '0 * * * *'
+  # Возможность запустить вручную из интерфейса GitHub
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # Здесь можно добавить pip install requests и т.д., если нужно
+      
+      - name: Run generation script
+        run: python generate.py
+      
+      - name: Commit and push generated subscriptions
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add subs/*.txt
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-update subscriptions [skip ci]"
+            git push
+          fi
