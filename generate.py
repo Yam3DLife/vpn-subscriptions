@@ -9,7 +9,7 @@ VIP_KEYS = """#profile-title: HotVPN ViP🔥
 #support-url: https://t.me/Wd_Life
 #profile-update-interval: 5
 #announce: VIP доступ — все серверы
-#announce: ТГК: https://t.me/Wd_Life от 09.04.2026 21:09
+#announce: ТГК: https://t.me/Wd_Life от 15.04.2026 18:40
 ################################
 
 
