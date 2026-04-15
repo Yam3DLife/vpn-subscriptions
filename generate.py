@@ -162,7 +162,7 @@ LITE_KEYS = """#profile-title: HotVPN LITE ⚡
 #profile-update-interval: 5
 #support-url: https://t.me/Wd_Life
 #profile-update-interval: 5
-#announce: Облегчённая версия — основные серверы ТГК: https://t.me/Wd_Life от 09.04.2026 21:09
+#announce: Облегчённая версия — основные серверы ТГК: https://t.me/Wd_Life от 15.04.2026 18:40
 ################################
 
 vless://75807638-6f19-0bb8-ae08-38492ee85c88@ing-dop.anti-vpn.ru:52006?type=tcp&security=tls&flow=xtls-rprx-vision&fp=chrome&sni=&path=&host=&alpn=http%252525252525252525252F1.1#%F0%9F%87%AA%F0%9F%87%BA%20%F0%9F%93%B6LTE%7C%40xex_vpn%20%2351
