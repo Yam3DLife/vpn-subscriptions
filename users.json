@@ -1,20 +1,18 @@
 {
-  "telegram_vip_user": {
+  "Matvey_user": {
     "status": "active",
-    "expire_date": "2026-08-01",
+    "plan": "trial"
+  },
+  "test_vip_user": {
+    "status": "active",
+    "expire_date": "2026-05-15",
     "plan": "vip",
     "traffic_limit_gb": 0
   },
-  "telegram_lite_user": {
+  "test_lite_user": {
     "status": "active",
-    "expire_date": "2026-07-15",
+    "expire_date": "2026-04-18",
     "plan": "lite",
     "traffic_limit_gb": 30
-  },
-  "telegram_test": {
-    "status": "active",
-    "expire_date": "2026-06-20",
-    "plan": "vip",
-    "traffic_limit_gb": 0
   }
 }
