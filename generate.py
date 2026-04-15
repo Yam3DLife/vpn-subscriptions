@@ -346,9 +346,9 @@ TRIAL_KEYS = """#profile-title: HotVPN ПРОБНЫЙ 🧪
 #announce: Тестовый доступ — 3 дня / 5 GB
 ################################
 
-vless://75807638-6f19-0bb8-ae08-38492ee85c88@ing-dop.anti-vpn.ru:52006?type=tcp&security=tls&flow=xtls-rprx-vision&fp=chrome&sni=&path=&host=&alpn=http%252525252525252525252F1.1#TRIAL%201
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@57.128.182.234:8443?type=ws&security=tls&encryption=none&sni=sni.111000.indevs.in&host=sni.111000.indevs.in#TRIAL%202
-vless://9d94835e-2a8b-45a2-babc-86037288cd9f@185.40.153.191:443?encryption=none&type=tcp&security=reality&fp=chrome&sni=vk.com&pbk=NsRSWMDMKxVFiry3uRJB8tG5rG8LdIJqTJvHK0Uc6Gw&sid=EeEFB5bF#TRIAL%203
+vless://81de8a98-9c3c-03e8-bdf4-91fba80fe7e9@ger-13.anti-vpn.ru:52006?security=tls&encryption=none&alpn=http/1.1&headerType=none&fp=chrome&allowinsecure=1&type=tcp&flow=xtls-rprx-vision#%F0%9F%87%A9%F0%9F%87%AA++%E2%9A%A1%F0%9F%9F%A9+%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F+%5BVPN%5D+%231
+vless://c21349b7-4d60-416c-b2f7-68fe253879fb@158.160.122.223:8443?security=reality&encryption=none&pbk=x274vAATjQyRHChXL5coeXJB4ZuGx_-4Q_918Rw6lWA&headerType=none&fp=firefox&spx=%2F&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=yandex.com&sid=372c05b48fe83e5b#%F0%9F%87%B7%F0%9F%87%BA+%D0%9E%D0%B1%D1%85%D0%BE%D0%B4+%D0%B1%D0%B5%D0%BB%D1%8B%D1%85+%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%BE%D0%B2
+vless://81de8a98-9c3c-07d0-bdf4-91fba80fe7e9@russ-13.anti-vpn.ru:52006?security=tls&encryption=none&alpn=http/1.1&headerType=none&fp=chrome&allowinsecure=1&type=tcp&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA+%E2%9A%A1%F0%9F%9F%A9+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F+%5BVPN%5D+%231
 """
 # =========================
 
