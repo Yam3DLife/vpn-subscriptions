@@ -1,0 +1,14 @@
+{
+  "telegram_12345": {
+    "status": "active",
+    "expire_date": "2026-06-15",
+    "plan": "monthly",
+    "note": "Иван Петров"
+  },
+  "telegram_67890": {
+    "status": "blocked",
+    "expire_date": null,
+    "plan": null,
+    "note": "За неуплату"
+  }
+}
