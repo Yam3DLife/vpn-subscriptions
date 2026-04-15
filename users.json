@@ -14,5 +14,11 @@
     "expire_date": "2026-04-18",
     "plan": "lite",
     "traffic_limit_gb": 30
+  },
+    "MatVey_vip_user": {
+    "status": "active",
+    "expire_date": "2026-05-15",
+    "plan": "vip",
+    "traffic_limit_gb": 0
   }
 }
