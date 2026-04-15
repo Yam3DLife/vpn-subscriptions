@@ -20,5 +20,11 @@
     "expire_date": "2026-05-15",
     "plan": "vip",
     "traffic_limit_gb": 0
+  },
+    "Evgen_ViP_user": {
+    "status": "active",
+    "expire_date": "2026-05-18",
+    "plan": "vip",
+    "traffic_limit_gb": 0
   }
 }
